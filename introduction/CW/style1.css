@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 800px;
+    height: 200px;
+    border: 4px red solid;
+}
+
+main {
+    display: flex;
+    width: 800px;
+    height: 400px;
+}
+
+nav {
+    width: 100px;
+    height: 400px;
+    border: 4px orange solid;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    border: 4px orange solid;
+    border-left: none;
+}
+
+footer {
+    width: 800px;
+    height: 200px;
+    border: 4px gray solid;
+}
